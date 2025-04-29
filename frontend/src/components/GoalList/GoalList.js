@@ -8,7 +8,7 @@ const GoalList = props  => {
         <div>        
         <ul className='goalList'>
         {
-            props.goals.map(goal => {return <li key={goal.id}>{goal.text}</li>})
+            props.goals.map(goal => <li key={goal.id}>{goal.text}</li>)
         }
         </ul>
         </div>
