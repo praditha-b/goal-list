@@ -1,3 +1,8 @@
+.goalListContainer{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
 .goalList li
 {
     list-style: none;
@@ -6,11 +11,25 @@
     background-color: rgb(167, 209, 244);
     text-align: center;
     margin:1em 6em;
-    font-family: "Josefin Sans", sans-serif;
+   
 }
 .goalList{
 
     margin: 0;
     padding: 2em 2em;
+
+}
+.inputGoal{
+    border: none;
+    border-bottom: solid rgb(65, 64, 64) 1px;
+    background-color: rgb(232, 234, 234);
+    width: 50em;
+    height: 4em;
+    text-align: center;
+}
+
+.inputForm{
+    display: grid;
+    place-items: center;
 
 }
